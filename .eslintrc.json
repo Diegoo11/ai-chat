@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["airbnb", "next", "next/core-web-vitals"],
+  "rules": {
+    "linebreak-style": 0,
+    "import/prefer-default-export": 0,
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
+    "camelcase": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "import/no-extraneous-dependencies": 0,
+    "eqeqeq": 0,
+    "@next/next/no-img-element": 0,
+    "no-console":0,
+    "no-underscore-dangle": 0,
+    "prefer-regex-literals": 0,
+    "no-param-reassign": 0,
+    "no-restricted-globals": 0,
+    "react/jsx-props-no-spreading":0
+  }
 }
